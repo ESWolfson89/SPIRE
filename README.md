@@ -31,7 +31,7 @@ The simplest way to run this would be through Code::Blocks.
 Make sure the map data files and font file are in the project source directory
 (which in Codeblocks 13.xx is where I believe the executable will by default search for those files)
 
-Tested on Windows and Ubuntu.
+Tested on Windows and Ubuntu. Screenshots all taken on Ubuntu.
 
 If there is too much keyboard lag, you can change the third SDL_CreateRenderer parameter to 0 to default
 to hardware acceleration (near top of graphics.cpp). On my linux machine, the display was garbled unless forced to software mode.
